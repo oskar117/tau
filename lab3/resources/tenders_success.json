@@ -1,0 +1,265 @@
+{
+  "id": "510041",
+  "date": "2021-03-04",
+  "deadline_date": "2021-03-16",
+  "deadline_length_days": "11",
+  "deadline_length_hours": "287",
+  "title": "Dostawa sprz\u0119tu jednorazowego u\u017cytku - 1",
+  "category": "supplies",
+  "description": "strzykawki, ig\u0142y",
+  "sid": "info:32661",
+  "awarded_value": "200204.56",
+  "awarded_currency": "PLN",
+  "awarded_value_eur": "43980.36",
+  "purchaser": {
+    "id": "2571",
+    "sid": null,
+    "name": null
+  },
+  "type": {
+    "id": "art-275-pkt-1-ustawy",
+    "name": "art. 275 pkt 1 ustawy",
+    "slug": "art-275-pkt-1-ustawy"
+  },
+  "notices": [
+    {
+      "id": "32661",
+      "sid": "2021/BZP 00013117/04",
+      "date": "2021-03-04",
+      "type": {},
+      "src_id": null,
+      "src_url": null,
+      "data": {
+        "id": "32661",
+        "sid": "2021/BZP 00013117/04",
+        "date": "2021-03-04",
+        "type": {
+          "id": 1,
+          "slug": "info",
+          "name": "Zamiar udzielenia zam\u00f3wienia",
+          "name_en": "Intention to award the contract"
+        }
+      },
+      "sections": []
+    },
+    {
+      "id": "73831",
+      "sid": "2021/BZP 00040219/01",
+      "date": "2021-04-26",
+      "type": {},
+      "src_id": null,
+      "src_url": null,
+      "data": {
+        "id": "73831",
+        "sid": "2021/BZP 00040219/01",
+        "date": "2021-04-26",
+        "type": {
+          "id": 2,
+          "slug": "award",
+          "name": "Udzielenie zam\u00f3wienia",
+          "name_en": "Award of the contract"
+        }
+      },
+      "sections": []
+    }
+  ],
+  "awarded": [
+    {
+      "date": "2021-12-31",
+      "suppliers_id": "16639",
+      "count": "1",
+      "value": "92105.13",
+      "value_min": "92105.13",
+      "value_max": "92105.13",
+      "value_estimated": "85746.85",
+      "suppliers_name": "AESCUKAP CHIFA SP. Z O.O.",
+      "suppliers": [
+        {
+          "id": 16639,
+          "slug": "aescukap-chifa-sp-z-o-o",
+          "name": "AESCUKAP CHIFA SP. Z O.O."
+        }
+      ],
+      "value_for_one": 92105.13,
+      "value_for_two": 92105.13,
+      "value_for_three": 92105.13,
+      "offers_count_data": {
+        "1": {
+          "count": "1",
+          "value": "92105.13",
+          "value_eur": 20436.47
+        }
+      },
+      "offers_count": [
+        1
+      ],
+      "offers_count_status": "only_one",
+      "value_eur": 20436.47,
+      "value_for_one_eur": 20436.47,
+      "value_for_two_eur": 20436.47,
+      "value_for_three_eur": 20436.47
+    },
+    {
+      "date": "2021-04-06",
+      "suppliers_id": "12",
+      "count": "8",
+      "value": "79738.35",
+      "value_min": "79068.68",
+      "value_max": "82495.99",
+      "value_estimated": "72056.11",
+      "suppliers_name": "BIALMED Sp. z o.o.",
+      "suppliers": [
+        {
+          "id": 12,
+          "slug": "bialmed-sp-z-o-o",
+          "name": "BIALMED Sp. z o.o."
+        }
+      ],
+      "value_for_one": 60136.52,
+      "value_for_two": 77114.7,
+      "value_for_three": 79590.15,
+      "offers_count_data": {
+        "1": {
+          "count": "2",
+          "value": "60136.52",
+          "value_eur": 13097.64
+        },
+        "2": {
+          "count": "3",
+          "value": "16978.18",
+          "value_eur": 3697.82
+        },
+        "3": {
+          "count": "2",
+          "value": "2475.45",
+          "value_eur": 539.15
+        },
+        "4": {
+          "count": "1",
+          "value": "148.20",
+          "value_eur": 32.28
+        }
+      },
+      "offers_count": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "offers_count_status": "contains_only_one",
+      "value_eur": 17366.89,
+      "value_for_one_eur": 13097.64,
+      "value_for_two_eur": 16795.47,
+      "value_for_three_eur": 17334.61
+    },
+    {
+      "date": "2021-04-06",
+      "suppliers_id": "16640",
+      "count": "1",
+      "value": "2977.45",
+      "value_min": "2659.07",
+      "value_max": "3193.13",
+      "value_estimated": "2240.28",
+      "suppliers_name": "MEDOX SP. Z .O.O",
+      "suppliers": [
+        {
+          "id": 16640,
+          "slug": "medox-sp-z-o-o",
+          "name": "MEDOX SP. Z .O.O"
+        }
+      ],
+      "value_for_one": 0,
+      "value_for_two": 0,
+      "value_for_three": 0,
+      "offers_count_data": {
+        "4": {
+          "count": "1",
+          "value": "2977.45",
+          "value_eur": 648.48
+        }
+      },
+      "offers_count": [
+        4
+      ],
+      "value_eur": 648.48,
+      "value_for_one_eur": 0,
+      "value_for_two_eur": 0,
+      "value_for_three_eur": 0
+    },
+    {
+      "date": "2021-04-06",
+      "suppliers_id": "448",
+      "count": "1",
+      "value": "8551.60",
+      "value_min": "8551.60",
+      "value_max": "10665.13",
+      "value_estimated": "6853.22",
+      "suppliers_name": "SORIMEX SP. Z O.O. SP.K",
+      "suppliers": [
+        {
+          "id": 448,
+          "slug": "sorimex-sp-z-o-o-sp-k",
+          "name": "SORIMEX SP. Z O.O. SP.K"
+        }
+      ],
+      "value_for_one": 0,
+      "value_for_two": 0,
+      "value_for_three": 8551.6,
+      "offers_count_data": {
+        "3": {
+          "count": "1",
+          "value": "8551.60",
+          "value_eur": 1862.53
+        }
+      },
+      "offers_count": [
+        3
+      ],
+      "value_eur": 1862.53,
+      "value_for_one_eur": 0,
+      "value_for_two_eur": 0,
+      "value_for_three_eur": 1862.53
+    },
+    {
+      "date": "2021-04-06",
+      "suppliers_id": "63",
+      "count": "4",
+      "value": "16832.03",
+      "value_min": "16832.03",
+      "value_max": "26707.81",
+      "value_estimated": "15404.13",
+      "suppliers_name": "ZARYS International Group Sp. z o.o. Sp. K",
+      "suppliers": [
+        {
+          "id": 63,
+          "slug": "zarys-international-group-sp-z-o-o-sp-k",
+          "name": "ZARYS International Group Sp. z o.o. Sp. K"
+        }
+      ],
+      "value_for_one": 5982.89,
+      "value_for_two": 16832.03,
+      "value_for_three": 16832.03,
+      "offers_count_data": {
+        "1": {
+          "count": "3",
+          "value": "5982.89",
+          "value_eur": 1303.06
+        },
+        "2": {
+          "count": "1",
+          "value": "10849.14",
+          "value_eur": 2362.93
+        }
+      },
+      "offers_count": [
+        1,
+        2
+      ],
+      "offers_count_status": "contains_only_one",
+      "value_eur": 3665.99,
+      "value_for_one_eur": 1303.06,
+      "value_for_two_eur": 3665.99,
+      "value_for_three_eur": 3665.99
+    }
+  ]
+}
