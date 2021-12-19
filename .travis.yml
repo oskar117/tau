@@ -1,5 +1,4 @@
 language: java
 matrix:
-  include:
-    - lab4/.travis.yml
+  include: lab4/.travis.yml
 sudo: false
