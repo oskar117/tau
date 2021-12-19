@@ -1,3 +1,4 @@
+language: java
 matrix:
   include:
     - "lab4/.travis.yml"
