@@ -1,4 +1,9 @@
-language: java
-matrix:
-  include: lab4/.travis.yml
+jobs:
+  include: 
+    - language: java
+      jdk: openjdk11
+      before_script:
+        - "cd lab4"
+      script: "mvn test"
+
 sudo: false
