@@ -1,5 +1,0 @@
-language: java
-sudo: false
-before_script:
-  - "cd lab4"
-script: "mvn test"
