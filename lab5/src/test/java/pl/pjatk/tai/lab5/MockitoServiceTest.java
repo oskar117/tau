@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
 
+import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.*;
 
 public class MockitoServiceTest {
@@ -64,5 +65,23 @@ public class MockitoServiceTest {
         when(service.doStuff(anyBoolean())).thenThrow(new RuntimeException());
 
         Assertions.assertThrows(RuntimeException.class, () -> service.doStuff(true));
+    }
+
+    @Test
+    void shouldReturnCoolStringWhenMocked() {
+        MockitoSubService subService = mock(MockitoSubService.class);
+        given(subService.getCoolString()).willReturn("Cool string");
+
+        String result = subService.getCoolString();
+
+        Assertions.assertEquals("Cool string", result);
+    }
+
+    @Test
+    void shouldThrowMockedException() {
+        MockitoSubService service = mock(MockitoSubService.class);
+        when(service.getCoolString()).thenThrow(new NullPointerException("not cool enough"));
+
+        Assertions.assertThrows(NullPointerException.class, service::getCoolString);
     }
 }
